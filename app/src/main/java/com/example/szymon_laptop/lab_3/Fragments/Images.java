@@ -17,9 +17,7 @@ public class Images extends Fragment
     private GridView gridView;
     private ArrayList<Integer> images;
     private View view;
-    private final static String EXTRA_IMAGES = "com.example.psliw.movies.IMAGES";
-
-
+    private final static String EXTRA_IMAGES = "IMAGES";
 
     public static Images newInstance(ArrayList<Integer> images)
     {

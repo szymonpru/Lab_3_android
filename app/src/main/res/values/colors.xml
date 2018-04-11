@@ -9,4 +9,5 @@
     <color name="Horror">#DC4C46</color>
     <color name="Crime">#F2552C</color>
     <color name="Adventure">#00A591</color>
+    <color name="black">#000000</color>
 </resources>

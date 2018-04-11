@@ -9,12 +9,12 @@
     android:focusable="true"
     android:focusableInTouchMode="true"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="@dimen/small_plus_padding">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="@dimen/image_view_width_height"
+        android:layout_height="@dimen/image_view_width_height"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -35,7 +35,7 @@
         android:layout_toRightOf="@+id/imageView"
         android:text="name"
         android:textColor="@android:color/background_dark"
-        android:textSize="18sp" />
+        android:textSize="@dimen/text_size" />
 
     <TextView
         android:id="@+id/tvAge"
@@ -46,6 +46,6 @@
         android:layout_alignStart="@+id/tvName"
         android:text="age"
         android:textColor="@android:color/darker_gray"
-        android:textSize="18sp" />
+        android:textSize="@dimen/text_size" />
 
 </RelativeLayout>
