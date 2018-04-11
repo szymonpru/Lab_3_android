@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -57,9 +58,10 @@ public class MovieDetails extends AppCompatActivity {
         tvCategory.setText(movie.getCategory());
         tvRating.setText(String.valueOf(movie.getRating()));
         imageView.setImageResource(movie.getImg());
-
+        String category=movie.getCategory();
+        int colorID = this.getResources().getIdentifier(category, "color", this.getPackageName());
+        linearLayout.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),colorID));
     }
-
 
     private class ScreenSlidePagerAdapter extends FragmentPagerAdapter
     {

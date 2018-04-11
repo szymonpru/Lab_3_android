@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="Drama">#6C4F3D</color>
+    <color name="Sport">#F0EDE5</color>
+    <color name="Horror">#DC4C46</color>
+    <color name="Crime">#F2552C</color>
+    <color name="Adventure">#00A591</color>
 </resources>

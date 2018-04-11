@@ -42,7 +42,17 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Actor> actors= new ArrayList<>();
         images.add(R.drawable.forrest_gump);
         images.add(R.drawable.gladiator);
-        actors.add(new Actor("Aladeen","Retard", 50,R.drawable.jaws));
+        images.add(R.drawable.forrest_gump);
+        images.add(R.drawable.gladiator);
+        images.add(R.drawable.forrest_gump);
+        images.add(R.drawable.gladiator);
+        actors.add(new Actor("Marlon","Brando", 60,R.drawable.jaws));
+        actors.add(new Actor("Al","Pacino", 60,R.drawable.jaws));
+        actors.add(new Actor("James","Cann", 70,R.drawable.jaws));
+        actors.add(new Actor("Richard S.","Castellano", 40,R.drawable.jaws));
+        actors.add(new Actor("Robert","Duvall", 30,R.drawable.jaws));
+        actors.add(new Actor("Sterling","Hayden", 46,R.drawable.jaws));
+        actors.add(new Actor("John","Marley", 68,R.drawable.jaws));
 
         movieList.add(new Movie(1,"The Godfather",R.drawable.godfather,String.valueOf(Category.Crime),9.2, images,actors));
         movieList.add(new Movie(2,"Forrest Gump",R.drawable.forrest_gump,String.valueOf(Category.Drama),8.8, new ArrayList<Integer>(), new ArrayList<Actor>()));
